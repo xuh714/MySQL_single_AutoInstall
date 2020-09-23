@@ -3,29 +3,8 @@ Implementation of MySQL single instance installation
 脚本版本号：1.5.5
 
 支持操作系统版本 : LINUX 6/7
+
 支持数据库版本   : MySQL5.5 MySQL5.6 MySQL5.7 MySQL8.0
-
-自动化安装完毕目录结构(以/u01/mysql57举例):
-
-/u01/mysql57/app
-
-mysql           数据库软件目录
-
-mysqldb         数据库数据目录
-
-/u01/mysql57/app/mysqldb
-
-binlog          数据库二进制文件存放目录
-
-data            数据库数据文件存放目录
-
-log             数据库日志存放目录(慢日志及通用日志)
-
-redo            数据库REDO存放目录
-
-relaylog        数据库中继日志存放目录
-
-undo            数据库UNDO存放目录(mysql55无该目录)
 
 自动化安装步骤如下:
 
