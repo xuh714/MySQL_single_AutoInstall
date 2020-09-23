@@ -21,7 +21,6 @@ redo            数据库REDO存放目录
 relaylog        数据库中继日志存放目录
 undo            数据库UNDO存放目录(mysql55无该目录)
 
-
 自动化安装步骤如下:
 
 一、创建相关必要目录，假设为/u01/mysql57
@@ -88,11 +87,11 @@ sh LocalAutoInstall_Linux6-7_MySQL5.5-8.0_v1.5.5.sh -d /u01/mysql55/ -f mysql-5.
 注：自动化安装完毕，当前root用户密码均为mysql
 
 --单实例测试
-# source /etc/profile
-# mysql -uroot -pmysql 
+shell> source /etc/profile
+shell> mysql -uroot -pmysql 
 
 --多实例测试(针对每个版本分装命令账号为root/mysql)
-# mysql3305
-# mysql3306
-# mysql3307
-# mysql3308 
+shell> mysql3305
+shell> mysql3306
+shell> mysql3307
+shell> mysql3308
