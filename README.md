@@ -1,6 +1,7 @@
 # MySQL_single_AutoInstall
 Implementation of MySQL single instance installation
-脚本版本号：1.5.5
+
+版本号：1.5.5
 
 支持操作系统版本 : LINUX 6/7
 
